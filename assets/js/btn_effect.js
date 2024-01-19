@@ -1,6 +1,5 @@
 
-
-document.on('DOMContentLoaded',function(){
+document.addEventListener('DOMContentLoaded',function(){
   if(window.innerWidth < 1024){
     return;
   }
